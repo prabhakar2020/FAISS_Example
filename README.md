@@ -13,3 +13,12 @@ Facebook AI Similarity Search (FAISS) is an open-source library that allows deve
 - Methods that use a compressed representation of the vectors
 - Methods that add an indexing structure on top of the raw vectors
 - You can index a set of vectors using FAISS, and then search for the most similar vectors within the index using another vector.
+
+Faiss is built around an index type that stores a set of vectors, and provides a function to search in them with L2 and/or dot product vector comparison. Some index types are simple baselines, such as exact search. Most of the available indexing structures correspond to various trade-offs with respect to
+
+- search time
+- search quality
+- memory used per index vector
+- training time
+- adding time
+- need for external data for unsupervised training
