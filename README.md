@@ -1,6 +1,8 @@
 # FAISS_Example
 
-Reference : https://faiss.ai/
+I am demonstrating a use case in which I provide a curated list of content spanning multiple categories. Using the FAISS library for efficient similarity search and SentenceTransformers for embedding-based text representations, I ask targeted questions to retrieve relevant answers directly from the provided text.
+
+Library Reference: https://faiss.ai/
 
 Facebook AI Similarity Search (FAISS) is an open-source library that allows developers to: 
 - Search for similar embeddings in multimedia documents
